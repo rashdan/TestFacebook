@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9ADD6461521B8A100C3AE84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6451521B8A100C3AE84 /* UIKit.framework */; };
+		A9ADD6481521B8A100C3AE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6471521B8A100C3AE84 /* Foundation.framework */; };
+		A9ADD64A1521B8A100C3AE84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6491521B8A100C3AE84 /* CoreGraphics.framework */; };
+		A9ADD6501521B8A100C3AE84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9ADD64E1521B8A100C3AE84 /* InfoPlist.strings */; };
+		A9ADD6521521B8A100C3AE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD6511521B8A100C3AE84 /* main.m */; };
+		A9ADD6561521B8A100C3AE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD6551521B8A100C3AE84 /* AppDelegate.m */; };
+		A9ADD6591521B8A100C3AE84 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ADD6571521B8A100C3AE84 /* MainStoryboard_iPhone.storyboard */; };
+		A9ADD65C1521B8A100C3AE84 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ADD65A1521B8A100C3AE84 /* MainStoryboard_iPad.storyboard */; };
+		A9ADD65F1521B8A100C3AE84 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD65E1521B8A100C3AE84 /* MasterViewController.m */; };
+		A9ADD6621521B8A100C3AE84 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD6611521B8A100C3AE84 /* DetailViewController.m */; };
+		A9ADD66A1521B8A100C3AE84 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6691521B8A100C3AE84 /* SenTestingKit.framework */; };
+		A9ADD66B1521B8A100C3AE84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6451521B8A100C3AE84 /* UIKit.framework */; };
+		A9ADD66C1521B8A100C3AE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ADD6471521B8A100C3AE84 /* Foundation.framework */; };
+		A9ADD6741521B8A100C3AE84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9ADD6721521B8A100C3AE84 /* InfoPlist.strings */; };
+		A9ADD6771521B8A100C3AE84 /* FacebookContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ADD6761521B8A100C3AE84 /* FacebookContactsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9ADD66D1521B8A100C3AE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9ADD6381521B8A100C3AE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9ADD6401521B8A100C3AE84;
+			remoteInfo = FacebookContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9ADD6411521B8A100C3AE84 /* FacebookContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADD6451521B8A100C3AE84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9ADD6471521B8A100C3AE84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9ADD6491521B8A100C3AE84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9ADD64D1521B8A100C3AE84 /* FacebookContacts-Info.plist */ = {isa = PBXFileReference; path = "FacebookContacts-Info.plist"; sourceTree = "<group>"; };
+		A9ADD64F1521B8A100C3AE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9ADD6511521B8A100C3AE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9ADD6531521B8A100C3AE84 /* FacebookContacts-Prefix.pch */ = {isa = PBXFileReference; path = "FacebookContacts-Prefix.pch"; sourceTree = "<group>"; };
+		A9ADD6541521B8A100C3AE84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9ADD6551521B8A100C3AE84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9ADD6581521B8A100C3AE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A9ADD65B1521B8A100C3AE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A9ADD65D1521B8A100C3AE84 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		A9ADD65E1521B8A100C3AE84 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A9ADD6601521B8A100C3AE84 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		A9ADD6611521B8A100C3AE84 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A9ADD6681521B8A100C3AE84 /* FacebookContactsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookContactsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADD6691521B8A100C3AE84 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9ADD6711521B8A100C3AE84 /* FacebookContactsTests-Info.plist */ = {isa = PBXFileReference; path = "FacebookContactsTests-Info.plist"; sourceTree = "<group>"; };
+		A9ADD6731521B8A100C3AE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9ADD6751521B8A100C3AE84 /* FacebookContactsTests.h */ = {isa = PBXFileReference; path = FacebookContactsTests.h; sourceTree = "<group>"; };
+		A9ADD6761521B8A100C3AE84 /* FacebookContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookContactsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ADD63E1521B8A100C3AE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD6461521B8A100C3AE84 /* UIKit.framework in Frameworks */,
+				A9ADD6481521B8A100C3AE84 /* Foundation.framework in Frameworks */,
+				A9ADD64A1521B8A100C3AE84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADD6641521B8A100C3AE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD66A1521B8A100C3AE84 /* SenTestingKit.framework in Frameworks */,
+				A9ADD66B1521B8A100C3AE84 /* UIKit.framework in Frameworks */,
+				A9ADD66C1521B8A100C3AE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ADD6361521B8A100C3AE84 = {
+			isa = PBXGroup;
+			children = (
+				A9ADD64B1521B8A100C3AE84 /* FacebookContacts */,
+				A9ADD66F1521B8A100C3AE84 /* FacebookContactsTests */,
+				A9ADD6441521B8A100C3AE84 /* Frameworks */,
+				A9ADD6421521B8A100C3AE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ADD6421521B8A100C3AE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD6411521B8A100C3AE84 /* FacebookContacts.app */,
+				A9ADD6681521B8A100C3AE84 /* FacebookContactsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ADD6441521B8A100C3AE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD6451521B8A100C3AE84 /* UIKit.framework */,
+				A9ADD6471521B8A100C3AE84 /* Foundation.framework */,
+				A9ADD6491521B8A100C3AE84 /* CoreGraphics.framework */,
+				A9ADD6691521B8A100C3AE84 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9ADD64B1521B8A100C3AE84 /* FacebookContacts */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD6541521B8A100C3AE84 /* AppDelegate.h */,
+				A9ADD6551521B8A100C3AE84 /* AppDelegate.m */,
+				A9ADD6571521B8A100C3AE84 /* MainStoryboard_iPhone.storyboard */,
+				A9ADD65A1521B8A100C3AE84 /* MainStoryboard_iPad.storyboard */,
+				A9ADD65D1521B8A100C3AE84 /* MasterViewController.h */,
+				A9ADD65E1521B8A100C3AE84 /* MasterViewController.m */,
+				A9ADD6601521B8A100C3AE84 /* DetailViewController.h */,
+				A9ADD6611521B8A100C3AE84 /* DetailViewController.m */,
+				A9ADD64C1521B8A100C3AE84 /* Supporting Files */,
+			);
+			path = FacebookContacts;
+			sourceTree = "<group>";
+		};
+		A9ADD64C1521B8A100C3AE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD64D1521B8A100C3AE84 /* FacebookContacts-Info.plist */,
+				A9ADD64E1521B8A100C3AE84 /* InfoPlist.strings */,
+				A9ADD6511521B8A100C3AE84 /* main.m */,
+				A9ADD6531521B8A100C3AE84 /* FacebookContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9ADD66F1521B8A100C3AE84 /* FacebookContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD6751521B8A100C3AE84 /* FacebookContactsTests.h */,
+				A9ADD6761521B8A100C3AE84 /* FacebookContactsTests.m */,
+				A9ADD6701521B8A100C3AE84 /* Supporting Files */,
+			);
+			path = FacebookContactsTests;
+			sourceTree = "<group>";
+		};
+		A9ADD6701521B8A100C3AE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADD6711521B8A100C3AE84 /* FacebookContactsTests-Info.plist */,
+				A9ADD6721521B8A100C3AE84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ADD6401521B8A100C3AE84 /* FacebookContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADD67A1521B8A100C3AE84 /* Build configuration list for PBXNativeTarget "FacebookContacts" */;
+			buildPhases = (
+				A9ADD63D1521B8A100C3AE84 /* Sources */,
+				A9ADD63E1521B8A100C3AE84 /* Frameworks */,
+				A9ADD63F1521B8A100C3AE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookContacts;
+			productName = FacebookContacts;
+			productReference = A9ADD6411521B8A100C3AE84 /* FacebookContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9ADD6671521B8A100C3AE84 /* FacebookContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADD67D1521B8A100C3AE84 /* Build configuration list for PBXNativeTarget "FacebookContactsTests" */;
+			buildPhases = (
+				A9ADD6631521B8A100C3AE84 /* Sources */,
+				A9ADD6641521B8A100C3AE84 /* Frameworks */,
+				A9ADD6651521B8A100C3AE84 /* Resources */,
+				A9ADD6661521B8A100C3AE84 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9ADD66E1521B8A100C3AE84 /* PBXTargetDependency */,
+			);
+			name = FacebookContactsTests;
+			productName = FacebookContactsTests;
+			productReference = A9ADD6681521B8A100C3AE84 /* FacebookContactsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ADD6381521B8A100C3AE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A9ADD63B1521B8A100C3AE84 /* Build configuration list for PBXProject "FacebookContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9ADD6361521B8A100C3AE84;
+			productRefGroup = A9ADD6421521B8A100C3AE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ADD6401521B8A100C3AE84 /* FacebookContacts */,
+				A9ADD6671521B8A100C3AE84 /* FacebookContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9ADD63F1521B8A100C3AE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD6501521B8A100C3AE84 /* InfoPlist.strings in Resources */,
+				A9ADD6591521B8A100C3AE84 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A9ADD65C1521B8A100C3AE84 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADD6651521B8A100C3AE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD6741521B8A100C3AE84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9ADD6661521B8A100C3AE84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ADD63D1521B8A100C3AE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD6521521B8A100C3AE84 /* main.m in Sources */,
+				A9ADD6561521B8A100C3AE84 /* AppDelegate.m in Sources */,
+				A9ADD65F1521B8A100C3AE84 /* MasterViewController.m in Sources */,
+				A9ADD6621521B8A100C3AE84 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ADD6631521B8A100C3AE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADD6771521B8A100C3AE84 /* FacebookContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9ADD66E1521B8A100C3AE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9ADD6401521B8A100C3AE84 /* FacebookContacts */;
+			targetProxy = A9ADD66D1521B8A100C3AE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9ADD64E1521B8A100C3AE84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADD64F1521B8A100C3AE84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9ADD6571521B8A100C3AE84 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADD6581521B8A100C3AE84 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9ADD65A1521B8A100C3AE84 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADD65B1521B8A100C3AE84 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A9ADD6721521B8A100C3AE84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9ADD6731521B8A100C3AE84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9ADD6781521B8A100C3AE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9ADD6791521B8A100C3AE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9ADD67B1521B8A100C3AE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookContacts/FacebookContacts-Prefix.pch";
+				INFOPLIST_FILE = "FacebookContacts/FacebookContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9ADD67C1521B8A100C3AE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookContacts/FacebookContacts-Prefix.pch";
+				INFOPLIST_FILE = "FacebookContacts/FacebookContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9ADD67E1521B8A100C3AE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FacebookContacts.app/FacebookContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookContacts/FacebookContacts-Prefix.pch";
+				INFOPLIST_FILE = "FacebookContactsTests/FacebookContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A9ADD67F1521B8A100C3AE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FacebookContacts.app/FacebookContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacebookContacts/FacebookContacts-Prefix.pch";
+				INFOPLIST_FILE = "FacebookContactsTests/FacebookContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ADD63B1521B8A100C3AE84 /* Build configuration list for PBXProject "FacebookContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADD6781521B8A100C3AE84 /* Debug */,
+				A9ADD6791521B8A100C3AE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ADD67A1521B8A100C3AE84 /* Build configuration list for PBXNativeTarget "FacebookContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADD67B1521B8A100C3AE84 /* Debug */,
+				A9ADD67C1521B8A100C3AE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9ADD67D1521B8A100C3AE84 /* Build configuration list for PBXNativeTarget "FacebookContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADD67E1521B8A100C3AE84 /* Debug */,
+				A9ADD67F1521B8A100C3AE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9ADD6381521B8A100C3AE84 /* Project object */;
+}
